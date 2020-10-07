@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV*/
+
 nav{
     font-family: 'Bangers', cursive;
     font-size: 30px;
@@ -6,6 +12,8 @@ nav{
 nav a img{
     width: 200px;
 }
+
+/*SOBRE MI*/
 
 h1{
     font-family: 'Bangers', cursive;
@@ -28,6 +36,26 @@ h2{
     text-align: justify;
     font-size: 15px;
 }
+
+/*EXPERIENCIA*/
+
+h3{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.iconos{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+}
+
+h4{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+
+/*FOOTER*/
 
 footer img{
     width: 200px;
