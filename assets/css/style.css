@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV*/
+
+nav{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+
+nav a img{
+    width: 200px;
+}
+
+/*SOBRE MI*/
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+.bio p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+.bio img{
+    border-radius: 100%;
+    width: 100%
+}
+
+.bio p{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+/*EXPERIENCIA*/
+
+h3{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.iconos{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+}
+
+h4{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+
+/*PORTAFOLIO*/
+
+h2{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.card{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.galeria{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+
+/*CONTACTO*/
+
+.contacto{
+    background-color: black;
+}
+
+.contacto h4{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.contacto p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+
+/*FOOTER*/
+
+footer img{
+    width: 200px;
+}
+
+footer a{
+    color: black;
+}
+
+i{
+    font-size: 50px;
+}
+
+footer p{
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d45737878d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+  <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo cabecera.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto pr-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="#bio">Sobre mi</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#exp">Experiencia</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#portafolio">Trabajos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!--HEADER SLIDE-->
+    <header>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="./assets/img/hollow knight.jpg" class="d-block w-100" alt="slide1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/fuego.jpg" class="d-block w-100" alt="slide2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/eleven.jpg" class="d-block w-100" alt="slide3">
+              </div>
+            </div>
+          </div>
+    </header>
+    <!--SOBRE MI-->
+    <section id="bio" class="bio container d-none d-log-block d-xl-block">
+        <h1 class="text-center pt-5 pb-2 text-warning">Sobre Mi</h1>
+        <p class="text-center text-dark"><b>Ilustrador y Diseñador Gráfico</b></p>
+        <hr color="black" size="3" width="75%" class="mb-3">
+        <div class="row">
+        <div class="mb-5 mt-5 col-md-3 col-lg-3 col-xl-3">
+            <img src="./assets/img/bio.jpg" alt="bio">
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4">
+            <p>Me llamo Sebastian Araos, pero mi nickname en internet y videojuegos es Zevaztian o Zeta.</p>
+
+            <p>Esposo, padre y entrenador Pokemon. Desde pequeño que me encanta dibujar, la animación japonesa, los juegos de mesa y los videojuegos. Nintendero de corazón 100%.</p>
+                
+            <p>En el año 2006 ingresé a la carrera de Diseño Gráfico Publicitario y en el 2009 me titulé. Desde entonces he trabajado como Freelance. En la actualidad estoy estudiando programación Front End y me encanta, nunca pensé que me gustaría tanto escribir en códigos y que estos se transformen en colores y formas, como lo es una página web. Mi meta es poder profesionalizarme aún más y aportar en el mundo del Diseño.</p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4">
+            <p>Además, por un lado, más artístico e ilustrativo estoy en un proyecto personal de publicar un libro escrito y dibujado por mí, el cual ha tomado más tiempo del previsto, pero que realizaré sin lugar a dudas. Espero que cuando esté disponible para el público puedan disfrutar de las aventuras de Tommy (derechos reservados ¡jajá!)</p>
+                    
+            <p>Una gran influencia en esta aventura es mi hijo, si conocieran a esa bendición que corre por todos lados, imbatible e incansable tendrían una fuente de inspiración eterna. Además mi esposa ha sido un gran apoyo y pilar en mi carrera. Por ellos dos quiero pasar al siguiente nivel y poder decir: Mission Complete!</p>
+        </div>
+        </div>
+    </section>
+    <!--EXPERIENCIA-->
+    <section id="exp" class="exp  bg-dark text-warning">
+        <h3 class="text-center pt-5 pb-2">Experiencia</h3>
+        <hr color="yellow" size="3" width="50%" class="mb-5">
+        <div class="row container m-auto">
+                <div class="iconos col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <i class="far fa-object-ungroup pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Photoshop / Illustrator"></i>
+                    <h6>Diseño Gráfico Publicitario</h6>
+                    <p>Desde 2009</p>
+                </div>
+                <div class="iconos col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <i class="fas fa-pen-fancy pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Tradicional / Digital"></i>
+                    <h6>Ilustrador</h6>
+                    <p>Desde siempre</p>
+                </div>
+                <div class="iconos col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <i class="fas fa-code pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Html / Css / JavaScript / Jquery / Git"></i>
+                    <h6>Programador Front End</h6>
+                    <p>Desde 2020</p>
+                </div>
+        </div>
+        <h4 class=" skills text-center pt-5 pb-2 text-white">+Skills</h4>
+        <hr color="white" size="3" width="25%" class="mb-5">
+        <div class="row container m-auto text-white pb-5">
+                <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <i class="fas fa-gamepad pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Super Mario Bros / The Legend of Zelda / LOL / Brawl Star"></i>
+                    <h6>Videogames</h6>
+                </div>
+                <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <i class="fas fa-dice-d20 pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="TCG Pokemon / Humandkind / Dungeons&Dragons"></i>
+                    <h6>Juegos de Mesa</h6>
+                </div>
+                <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <i class="fas fa-robot pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Maquetas Gundam / Otros"></i>
+                    <h6>Gunplero</h6>
+                </div>
+                <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <i class="fas fa-chair pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Cocinas / Vanitorios /Libreros / Racks"></i>
+                    <h6>Mueblista</h6>
+                </div>
+                <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <i class="fas fa-feather-alt pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="The Lord of the Rings / Dune"></i>
+                    <h6>Lector y Escritor</h6>
+                </div>
+                <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <i class="fas fa-film pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Star Wars / Lost / Stranger Things"></i>
+                    <h6>Cinefilo y Seriologo</h6>
+                </div>
+        </div>
+    </section>
+    <!--TRABAJOS-->
+    <section id="portafolio" class="portafolio bg-warning">
+      <h2 class="display-4 text-center font-weight-bold text-dark mb-3 pt-5">Trabajos</h2>
+      <hr color="black" size="3" width="50%" class="mb-5">
+      <div class="card-deck container m-auto pb-3">
+        <div class="card">
+          <img class="card-img-top" src="./assets/img/trabajo1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tarjetas de Presentación</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#tarjetas">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./assets/img/trabajo2.JPG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Partes de Matrimonio</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#partes">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/trabajo3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Logotipos</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#logotipos">Ver más</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck container m-auto pb-5">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/trabajo4.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Restauraciones Fotográficas</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#restauraciones">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/trtabajo5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ilustraciones</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#ilustraciones">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/imgtrabajo6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Animaciones</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#animaciones">Ver más</button>
+          </div>
+        </div>
+      </div>
+    <!--MODEL-->
+    <div class="modal fade" id="tarjetas" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal1">Tarjetas de Presentación</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo1.jpg" alt="Card image cap">
+            <p>Tarjetas personalizadas. Elegantes y profesionales. Nunca pasaran de moda.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="partes" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal2">Partes de Matrimonio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo2.JPG" alt="Card image cap">
+            <p>Detalles únicos para una ocasión especial. Recuerdos inolvidables.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="logotipos" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal3">Logotipos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo3.png" alt="Card image cap">
+            <p>Potencia tu empresa o emprendimiento con una imagen que quedará grabada en la mente de las personas.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="restauraciones" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal4">Restauraciones Fotográficas</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo4.jpg" alt="Card image cap">
+            <p>Recupera esos recuerdos que marcaron tu vida y la de tu familia.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ilustraciones" tabindex="-1" role="dialog" aria-labelledby="modal5" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal5">Ilustraciones</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trtabajo5.jpg" alt="Card image cap">
+
+            <p>Una caricatura en distintos estilos. Siempre es un simpático obsequio.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="animaciones" tabindex="-1" role="dialog" aria-labelledby="modal6" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal6">Animaciones</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"> 
+            <video class="img-fluid mb-3" src="assets/img/trabajo6.mp4" alt="Card image cap" autoplay loop></video>
+            <p>Dale vida a tus ideas y potencia tu negocio.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pb-5 text-center">
+      <button type="button" class="galeria btn btn-dark">Galería de Trabajos</button>
+    </div>
+    </section>
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+      <h4 class="text-warning text-center pt-5">Contáctame</h4>
+      <hr color="yellow" size="3" width="50%" class="mb-4">
+      <p class="text-center pb-3 text text-white">Formulario de Contacto</p>
+      <div class="typeform-widget" data-url="https://form.typeform.com/to/I9E0DKN4" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=I9E0DKN4&utm_source=typeform.com-01EKMYA41K5TJMK1AZ7DGVJ5J6-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="text-center bg-warning py-4">
+        <img class="py-3" src="./assets/img/logo cabecera.png" alt="logofooter">
+        <div class="redes py-2 text-center">
+            <a href="https://www.facebook.com/zevaztian.araoz"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/zevaraoz"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://artbookzeta.tumblr.com/"><i class="fab fa-tumblr-square"></i></a>
+        </div>
+        <p>©Copyright. Sebastian Araos</p>
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
