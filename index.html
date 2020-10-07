@@ -33,7 +33,6 @@
             </li>
           </ul>
         </div>
-
     </nav>
     <!--HEADER SLIDE-->
     <header>
@@ -54,8 +53,8 @@
     <!--SOBRE MI-->
     <section id="bio" class="bio container d-none d-log-block d-xl-block">
         <h1 class="text-center pt-5 pb-2 text-warning">Sobre Mi</h1>
-        <h2 class="text-center text-warning">Ilustrador y Diseñador Gráfico</h2>
-        <hr color="black" size="3" width="50%" class="mb-3">
+        <p class="text-center text-dark"><b>Ilustrador y Diseñador Gráfico</b></p>
+        <hr color="black" size="3" width="75%" class="mb-3">
         <div class="row">
         <div class="mb-5 mt-5 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/img/bio.jpg" alt="bio">
@@ -80,17 +79,17 @@
         <hr color="yellow" size="3" width="50%" class="mb-5">
         <div class="row container m-auto">
                 <div class="iconos col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-                    <i class="far fa-object-ungroup pb-3"></i>
+                    <i class="far fa-object-ungroup pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Photoshop / Illustrator"></i>
                     <h6>Diseño Gráfico Publicitario</h6>
                     <p>Desde 2009</p>
                 </div>
                 <div class="iconos col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-                    <i class="fas fa-pen-fancy pb-3"></i>
+                    <i class="fas fa-pen-fancy pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Tradicional / Digital"></i>
                     <h6>Ilustrador</h6>
                     <p>Desde siempre</p>
                 </div>
                 <div class="iconos col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-                    <i class="fas fa-code pb-3"></i>
+                    <i class="fas fa-code pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Html / Css / JavaScript / Jquery / Git"></i>
                     <h6>Programador Front End</h6>
                     <p>Desde 2020</p>
                 </div>
@@ -99,33 +98,207 @@
         <hr color="white" size="3" width="25%" class="mb-5">
         <div class="row container m-auto text-white pb-5">
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
-                    <i class="fas fa-gamepad pb-3"></i>
+                    <i class="fas fa-gamepad pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Super Mario Bros / The Legend of Zelda / LOL / Brawl Star"></i>
                     <h6>Videogames</h6>
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
-                    <i class="fas fa-dice-d20 pb-3"></i>
+                    <i class="fas fa-dice-d20 pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="TCG Pokemon / Humandkind / Dungeons&Dragons"></i>
                     <h6>Juegos de Mesa</h6>
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
-                    <i class="fas fa-robot pb-3"></i>
+                    <i class="fas fa-robot pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Maquetas Gundam / Otros"></i>
                     <h6>Gunplero</h6>
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
-                    <i class="fas fa-chair pb-3"></i>
+                    <i class="fas fa-chair pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Cocinas / Vanitorios /Libreros / Racks"></i>
                     <h6>Mueblista</h6>
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
-                    <i class="fas fa-feather-alt pb-3"></i>
+                    <i class="fas fa-feather-alt pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="The Lord of the Rings / Dune"></i>
                     <h6>Lector y Escritor</h6>
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
-                    <i class="fas fa-film pb-3"></i>
+                    <i class="fas fa-film pb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Star Wars / Lost / Stranger Things"></i>
                     <h6>Cinefilo y Seriologo</h6>
                 </div>
         </div>
     </section>
     <!--TRABAJOS-->
-    <section id="portafolio" class="portafolio">
+    <section id="portafolio" class="portafolio bg-warning">
+      <h2 class="display-4 text-center font-weight-bold text-dark mb-3 pt-5">Trabajos</h2>
+      <hr color="black" size="3" width="50%" class="mb-5">
+      <div class="card-deck container m-auto pb-3">
+        <div class="card">
+          <img class="card-img-top" src="./assets/img/trabajo1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tarjetas de Presentación</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#tarjetas">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./assets/img/trabajo2.JPG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Partes de Matrimonio</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#partes">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/trabajo3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Logotipos</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#logotipos">Ver más</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck container m-auto pb-5">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/trabajo4.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Restauraciones Fotográficas</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#restauraciones">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/trtabajo5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ilustraciones</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#ilustraciones">Ver más</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/imgtrabajo6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Animaciones</h5>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#animaciones">Ver más</button>
+          </div>
+        </div>
+      </div>
+    <!--MODEL-->
+    <div class="modal fade" id="tarjetas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tarjetas de Presentación</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo1.jpg" alt="Card image cap">
+
+            <p>Tarjetas personalizadas. Elegantes y profesionales. Nunca pasaran de moda.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="partes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Partes de Matrimonio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo2.JPG" alt="Card image cap">
+
+            <p>Detalles unicos para una ocasión especial. Recuerdos inolvidables.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="logotipos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Logotipos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo3.png" alt="Card image cap">
+
+            <p>Potencia tu empresa o emprendimiento con una imagen que quedara grabada en la mente de las personas.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="restauraciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Restauraciones Fotográficas</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trabajo4.jpg" alt="Card image cap">
+
+            <p>Recupera esos recuerdos que marcaron tu vida y la de tu familia.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ilustraciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ilustraciones</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/trtabajo5.jpg" alt="Card image cap">
+
+            <p>Una caricatura en distintos estilos. Siempre es un simpatico obsequio.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="animaciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Animaciones</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"> 
+            <video class="img-fluid mb-3" src="assets/img/trabajo6.mp4" alt="Card image cap" autoplay loop></video>
+            <p>Dale vida a tus ideas y potencia tu negocio.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      
 
     </section>
     <!--CONTACTO-->
