@@ -55,10 +55,31 @@ h4{
     font-size: 30px;
 }
 
+/*CONTACTO*/
+
+.contacto{
+    background-color: black;
+}
+
+.contacto h4{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.contacto p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+
 /*FOOTER*/
 
 footer img{
     width: 200px;
+}
+
+footer a{
+    color: black;
 }
 
 i{
@@ -68,6 +89,7 @@ i{
 footer p{
     font-family: 'Raleway', sans-serif;
 }
+
 
 
 

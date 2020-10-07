@@ -11,6 +11,7 @@
     <title>Mi Portafolio</title>
 </head>
 <body>
+  <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <a class="navbar-brand" href="#"><img src="./assets/img/logo cabecera.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,15 +26,16 @@
               <a class="nav-link" href="#exp">Experiencia</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Trabajos</a>
+              <a class="nav-link" href="#portafolio">Trabajos</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
 
     </nav>
+    <!--HEADER SLIDE-->
     <header>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -49,6 +51,7 @@
             </div>
           </div>
     </header>
+    <!--SOBRE MI-->
     <section id="bio" class="bio container d-none d-log-block d-xl-block">
         <h1 class="text-center pt-5 pb-2 text-warning">Sobre Mi</h1>
         <h2 class="text-center text-warning">Ilustrador y Diseñador Gráfico</h2>
@@ -71,6 +74,7 @@
         </div>
         </div>
     </section>
+    <!--EXPERIENCIA-->
     <section id="exp" class="exp  bg-dark text-warning">
         <h3 class="text-center pt-5 pb-2">Experiencia</h3>
         <hr color="yellow" size="3" width="50%" class="mb-5">
@@ -112,7 +116,7 @@
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
                     <i class="fas fa-feather-alt pb-3"></i>
-                    <h6>Escritor</h6>
+                    <h6>Lector y Escritor</h6>
                 </div>
                 <div class="iconos col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 text-center">
                     <i class="fas fa-film pb-3"></i>
@@ -120,20 +124,26 @@
                 </div>
         </div>
     </section>
-    <section class="portfolio">
+    <!--TRABAJOS-->
+    <section id="portafolio" class="portafolio">
 
     </section>
-    <section class="contacto">
-
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+      <h4 class="text-warning text-center pt-5">Contáctame</h4>
+      <hr color="yellow" size="3" width="50%" class="mb-4">
+      <p class="text-center pb-3 text text-white">Formulario de Contacto</p>
+      <div class="typeform-widget" data-url="https://form.typeform.com/to/I9E0DKN4" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=I9E0DKN4&utm_source=typeform.com-01EKMYA41K5TJMK1AZ7DGVJ5J6-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
     </section>
-    <footer class="text-center bg-warning navbar-light">
-        <img class="py-3" src="./assets/img/logo cabecera.png" alt=""></a>
+    <!--FOOTER-->
+    <footer class="text-center bg-warning">
+        <img class="py-3" src="./assets/img/logo cabecera.png" alt="logofooter">
         <div class="redes py-2 text-center">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-tumblr-square"></i>
+            <a href="https://www.facebook.com/zevaztian.araoz"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/zevaraoz"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://artbookzeta.tumblr.com/"><i class="fab fa-tumblr-square"></i></a>
         </div>
-        <p class="py-3">©Copyright. Sebastian Araos</p>
+        <p class="pb-3">©Copyright. Sebastian Araos</p>
         
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
